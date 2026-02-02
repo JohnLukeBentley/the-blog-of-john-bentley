@@ -1,6 +1,16 @@
 # What are the best midish-to-lowish Alt + highish Roll + other idiosyncratic criteria layouts?
 
-Under construction ...
+Under construction @ 2026-02-02 16:21 ...
+
+- [Intro](#intro)
+- [TL;DR:](#tldr)
+- [Context](#context)
+- [Analysis - overview](#analysis---overview)
+- [Analysis - ways of speaking](#analysis---ways-of-speaking)
+- [Analysis - keycraft customisation](#analysis---keycraft-customisation)
+  - [Layout customisation](#layout-customisation)
+  - [Weights file customisation](#weights-file-customisation)
+  - [Corpus](#corpus)
 
 ## Intro
 
@@ -139,6 +149,8 @@ I can't find links to anything authoritative that details how these corpora wher
 ```powershell
 Clear
 Set-Location "C:\Program Files\Keycraft"
-$LongList = @("flour-colstag-ns","flame-cs-ns","gallium-v2-cs-ns","graphite-cs-ns","heyyou-cs-ns","hieamtsrn-cs-ns","inrolly2-cs-ns","ints-cs-ns","rain-cs-ns-cmini","seht-drai-cs-ns","sturde-cs-ns","sturdy-cs-ns","trendy-cs-ns","wave2-cs-ns","qwerty-ns")
+$LongList = @("flour-colstag-ns","flame-cs-ns","gallium-v2-cs-ns","graphite-cs-ns","heyyou-cs-ns",
+              "hieamtsrn-cs-ns","inrolly2-cs-ns","ints-cs-ns","rain-cs-ns-cmini","seht-drai-cs-ns",
+              "sturde-cs-ns","sturdy-cs-ns","trendy-cs-ns","wave2-cs-ns","qwerty-ns")
 keycraft rank $LongList --weights-file john.txt --metrics extended --deltas graphite-cs-ns --corpus shai.txt
 ```
