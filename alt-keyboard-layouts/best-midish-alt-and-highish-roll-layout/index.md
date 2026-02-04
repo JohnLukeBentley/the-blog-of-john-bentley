@@ -1,6 +1,6 @@
 # What are the best layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria?
 
-Under construction @ 2026-02-04 16:35 ...
+Under construction @ 2026-02-04 17:09 ...
 
 - [Intro](#intro)
 - [Hardware (and software)](#hardware-and-software)
