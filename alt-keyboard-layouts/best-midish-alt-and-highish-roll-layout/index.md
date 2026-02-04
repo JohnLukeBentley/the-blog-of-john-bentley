@@ -2,6 +2,9 @@
 
 Under construction @ 2026-02-04 16:35 ...
 
+<details>
+<summary>Table of Contents</summary>
+
 - [Intro](#intro)
 - [Hardware (and software)](#hardware-and-software)
 - [Criteria](#criteria)
@@ -15,6 +18,8 @@ Under construction @ 2026-02-04 16:35 ...
   - [Weights file customisation](#weights-file-customisation)
   - [Corpus](#corpus)
 - [Analysis - the stats](#analysis---the-stats)
+
+</details>
 
 ## Intro
 
@@ -160,7 +165,7 @@ Note from keycraft > Supported Metrics (previously linked) "Bigram, skipgram, an
 
 When I refer to metric **value** I'll either:
 
-* If using ec0's 9 rung English word "Min, Very low, Low, Mid low, Mid, Mid high, High, Very high, Max" - I'll use that word. E.g. I might say "wave2-cs-ns has a very high FSB"; or
+* If using @ec0's 9 rung English word "Min, Very low, Low, Mid low, Mid, Mid high, High, Very high, Max" (borrowing from [Keyboard Layout Doc > 13.2 Layout stat table](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.uljxgg1xetqe#heading=h.rjxckyg9kkgq)) - I'll use that word. E.g. I might say "wave2-cs-ns has a very high FSB"; or
 * Speak broadly to refer to the 3 rung band (within which there is the further division into three). To do this I'll use "Lowish", "Midish", or "Highish". E.g. I might say "wave2-cs-ns has a highish FSB".
 
 ## Analysis - keycraft customisation
@@ -219,7 +224,7 @@ I assume that corpus is suitable, therefore, for optimizing for general English 
 
 ## Analysis - the stats
 
-So with keycraft installed, the following PowerShell ...
+So with keycraft installed, metric acronym definitions to hand [keycraft readme > support metrics](https://github.com/rbscholtus/keycraft?tab=readme-ov-file#supported-metrics), the following PowerShell ...
 
 ```powershell
 Clear
@@ -237,5 +242,7 @@ keycraft rank $LongList --weights-file john.txt --metrics extended --deltas grap
     src="keycraft-rank-16-layouts.png"
     alt="Keycraft rank 16 layouts"
     style="cursor: zoom-in;" />
-</a>
+</a> 
+
+
 
