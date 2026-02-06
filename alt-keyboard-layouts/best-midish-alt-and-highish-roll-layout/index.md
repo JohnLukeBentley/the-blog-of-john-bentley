@@ -1,12 +1,12 @@
 # What are the best layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria?
 
-Under construction @ 2026-02-05 16:50 ...
+Under construction @ 2026-02-06 14:02 ...
 
 - [Intro](#intro)
 - [Hardware (and software)](#hardware-and-software)
 - [Criteria](#criteria)
 - [The winners](#the-winners)
-- [Runner up](#runner-up)
+- [Runners up](#runners-up)
 - [Context](#context)
 - [Analysis](#analysis)
   - [Overview](#overview)
@@ -17,10 +17,11 @@ Under construction @ 2026-02-05 16:50 ...
     - [Corpus](#corpus)
   - [The stats](#the-stats)
   - [Reading the stats](#reading-the-stats)
-  - [Elimination round 1 - Qwerty is shit, but not all shit](#elimination-round-1---qwerty-is-shit-but-not-all-shit)
+  - [Elimination round 1 - Qwerty](#elimination-round-1---qwerty)
     - [Qwerty is shit](#qwerty-is-shit)
     - [... but not all shit](#-but-not-all-shit)
-  - [Elimination round 2 - Roll layouts](#elimination-round-2---roll-layouts)
+  - [Elimination round 2 - Highish alternation layouts](#elimination-round-2---highish-alternation-layouts)
+  - [Elimination round 3 - For ad hoc reasons](#elimination-round-3---for-ad-hoc-reasons)
 
 ## Intro
 
@@ -102,7 +103,7 @@ q x k g w   p h ~ ~ ~
 
 (See the angle modded version with symbols at [Keyboard Layout Document > Chapter 16: High roll-mid redirect layouts > ... > STRD / SRTD / SRTC](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.vb3u6rdlmxg1#heading=h.9ms661dgth73))
 
-## Runner up
+## Runners up
 
 **sturdy-cs-ns** by Oxey. Highish Roll; lowish redirect (STRD/SRTD/SRTC)
 
@@ -328,7 +329,7 @@ A layout that has a higher centre index column use, where the index has to stret
 
 This metric is a companion to "POH", "Pinky Off Home" (although not calculated in an analogous way).
 
-### Elimination round 1 - Qwerty is shit, but not all shit
+### Elimination round 1 - Qwerty
 
 @ec0 wrote in [Regard for inrolly2, 2025-11-21 06:35](https://discord.com/channels/807843650717483049/1439184823615885332/1441150096350908446) (in response to my suggestion qwerty stats would be good to include in KLD)
 
@@ -395,5 +396,95 @@ However, it's increasingly clear to me that I'll be after, ideally, lowish alter
 
  Anyway, despite those advantages going to qwerty, we boot qwerty out because it's so shit on other metrics.
 
-### Elimination round 2 - Roll layouts
+### Elimination round 2 - Highish alternation layouts
+
+We'll next eliminate from contention all the highish alternation layouts to move us toward our ideal. That will take out, from higher score to lower:
+
+*  graphite-cs-ns
+* trendy-cs-ns
+* gallium-v3-cs-ns
+* flour-colstag-ns
+* stonk-cs-ns
+* heyyou-cs-ns
+* hieamstrn-cs-ns
+* inrolly2-cs-ns.
+
+That leaves us with plenty of other layouts with midish to lowish alternation, the score well overall. Although qwerty-ns and graphite-cs-ns are eliminated from contention, we'll leave them displayed for reference:
+
+<a href="midish-to-lowish-alternation-layouts.png">
+  <img
+    src="midish-to-lowish-alternation-layouts.png"
+    alt="Midish to lowish alternation layouts"
+    style="cursor: zoom-in;" />
+</a>
+
+### Elimination round 3 - For ad hoc reasons
+
+We can next eliminate some layouts for ad hoc reasons. We'll start from the lower scoring layouts:
+
+**seht-drai-cs-ns**. It fails our criteria "Must have bottom row symbol slots on at least ring and middle fingers"; and it has highish FSB ("Full Scissor Bigram").
+
+**rain-cs-ns-cmini**. It has Highish HSB ("Half Scissor Bigram"), Highish HSS ("Half Scissor Skipgram"). Arguably Scissor metrics are the most important; and to score badly on a scissor (whether FSB, HSB, FSS, or HSS) is fatal unless there are compelling reasons to override. And given flame-cs-ns and wave-cs-ns score better on a range of relevant metrics - FSB, HSB, FSS, HSS, FLD, RLD - we'll boot out rain-cs-ns-cmini.
+
+**flame-cs-ns**?. This scores well. And most of the metrics have desirable values (see the metric cells with a green background). It scores highish 2RL, although lowish 3RL. We could endure the low 3RL given the very high 2RL. However, there's an issue that's not reflected in the metrics presented.
+
+@ec0 observes in [KLD > Chapter 16: High rolls-mid redirect layouts > ... > 16.3.2. HM or HML + vowels > NRTS / RNTS](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.vb3u6rdlmxg1#heading=h.32kya2qv9d0)
+
+> The drawback of these layouts is that there are a lot of SFBs concentrated on the left index (**SC, YS, WS, GS…**) leading to high movement on that finger. 
+
+This can be identified with `keycraft analyse flame-cs-ns wave2-cs-ns ints-cs-ns sturdy-cs-ns`. An orange mark identifies a SFB concentrated on the index.
+
+<a href="layouts-with-sfb-index-concentration.png">
+  <img
+    src="layouts-with-sfb-index-concentration.png"
+    alt="Layouts with SFB index concentration"
+    style="cursor: zoom-in;" />
+</a>
+
+Scoring these layouts *without* SFB concentrated on the index (higher is better):
+
+* sturdy-cs-ns: 4 SFBs
+* wave-cs-ns: 4 SFBs
+* ints-cs-ns: 2 SFBs
+* flame-cs-ns: 2 SFBs
+
+Although it's true, therefore, that flame-cs-ns has higher SFB concentration on the index ... it's not by much. They all have a large concentration of SFB on the index.
+
+Moreover, flame-cs-ns scores significantly better on other metrics compared to, say wave-cs-ns. Notably, RED, RED-WEEK, FLD, POH.
+
+So let's leave flame-cs-ns in contention for now.
+
+**sturde-cs-ns**. This is the best scoring layout. But it fails our criteria "Excluding thumb alpha layouts. To keep the thumb keys for other things like backspace, tab, enter, space". So we'll exclude it.
+
+This is particular because the Voyager, desirably in my view, has only 4 thumb keys to play with.
+
+Nevertheless some readers may which to precisely jump on this layout, given it is best scoring overall. That is, so long as they don't mind:
+
+* The thumb alpha (e);
+* Max LSB; and 
+* Max ICC
+
+At the end of our elimination round we have a shortlist ...
+
+* wave2-cs-ns
+* flame-cs-ns
+* ints-cs-ns
+* sturdy-cs-ns
+
+<a href="shortlist.png">
+  <img
+    src="shortlist.png"
+    alt="Shortlist"
+    style="cursor: zoom-in;" />
+</a>
+
+
+
+
+
+
+
+
+
+
 
