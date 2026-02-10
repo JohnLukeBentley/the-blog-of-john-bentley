@@ -1,6 +1,6 @@
 # What are the best layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria?
 
-Under construction @ 2026-02-10 16:44 ...
+Under construction @ 2026-02-10 16:52 ...
 
 ## Table of contents
 
@@ -751,10 +751,9 @@ And our final shortlist in Excel is now ...
     <tr>
       <th>
          1. ints (winner)<br />
-         <a href="https://github.com/samuelxyz/layouts#ints">https://github.com/samuelxyz/layouts#ints</a>
       </th>
       <td>
-        ints by Tanamr (rowstag anglemod)
+        <a href="https://github.com/samuelxyz/layouts#ints">ints by Tanamr (rowstag anglemod)</a>
 <pre><samp>f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u m j  q g d p ,
 <span style="color: red; font-weight: bold;">h</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e</span> <span style="color: red; font-weight: bold;">r</span> x  v <span style="color: red; font-weight: bold;">s t n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">i</span>
 ' / l w z  y <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> k b .
@@ -784,12 +783,10 @@ z . , l w  y <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span>
     </tr>
     <tr>
       <th>
-        2. flame (winner)<br />
-        <a href="https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.vb3u6rdlmxg1#heading=h.32kya2qv9d0">KLD > Chapter 16 ... > NRTS / RNTS</a>
+        1. flame (winner)
       </th>
       <td>
-        flame  by Oxey (anglemod)<br />
-        
+        <a href="https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.vb3u6rdlmxg1#heading=h.32kya2qv9d0">flame  by Oxey (anglemod)</a>  
 <pre><samp>x p d w g  q f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u ,
 <span style="color: red; font-weight: bold;">r n t s</span> y  j l <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
 b k <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> v z  m <span style="color: red; font-weight: bold;">h</span> ' ; .
@@ -819,12 +816,10 @@ z b k <span style="color: rgb(13, 130,  247); font-weight: bold;">c</span> v  m 
     </tr>
     <tr>
       <th>
-        3. wave2 (runner up)<br />
-        <a href="https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.vb3u6rdlmxg1#heading=h.9ms661dgth73">KLD > Chapter 16 ... > STRD / SRTD / SRTC</a>
+        1. wave2 (runner up)
       </th>
       <td>
-        wave2 by ec0 (anglemod)<br />
-        
+        <a href="https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.vb3u6rdlmxg1#heading=h.9ms661dgth73">wave2 by ec0 (anglemod)</a>
 <pre><samp>v l d m '  z f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u j
 <span style="color: red; font-weight: bold;">s r t</span> <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> y  b <span style="color: red; font-weight: bold;">n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
 x k g w q  p h . " ,
