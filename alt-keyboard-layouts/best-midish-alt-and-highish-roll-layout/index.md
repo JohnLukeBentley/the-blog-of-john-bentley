@@ -1,6 +1,6 @@
 # What are the best layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria?
 
-Under construction @ 2026-02-10 15:50 ...
+Under construction @ 2026-02-10 16:04 ...
 
 ## Table of contents
 
@@ -616,11 +616,11 @@ Broadly, this would then seem to come down to preference. If you want better:
 * SFB and HSB then **wave2-cs-ns**;
 * FLD and POH then **flame-cs-ns**.
 
-It's a knife edge decision. 
+It's a knife edge decision.
 
 #### Modifying the layouts
 
-Let's have a crack at modifying the layouts for better symbols positioning. Idiosyncratically I have a high use of the minus/hyphen "-" symbol as I: use it often in markdown lists; and in Cascading Style Sheets (CSS). So I'll want this on the main layer in a handy position. For me that's on the right hand, and on an index. 
+Let's have a crack at modifying the layouts for better symbols positioning. Idiosyncratically I have a high use of the minus/hyphen "-" symbol as I: use it often in markdown lists; and in Cascading Style Sheets (CSS). So I'll want this on the main layer in a handy position. For me that's on the right hand, and on an index.
 
 Modding wave2-cs-ns and flame-cs-ns yields the following variants that aren't significantly different from their base layout ...
 
@@ -754,10 +754,10 @@ And our final shortlist in Excel is now ...
     <tr>
       <th>1. ints (winner)</th>
       <td>
-        ints by Tanamr (rowstag anglemod)<br /> 
+        ints by Tanamr (rowstag anglemod)<br />
         <a href="https://github.com/samuelxyz/layouts#ints">https://github.com/samuelxyz/layouts#ints</a>
 <pre><samp>f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u m j  q g d p ,
-<span style="color: red; font-weight: bold;">h</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e</span> <span style="color: red; font-weight: bold;">r</span> x  v <span style="color: red; font-weight: bold;">s t n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">i</span>  
+<span style="color: red; font-weight: bold;">h</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e</span> <span style="color: red; font-weight: bold;">r</span> x  v <span style="color: red; font-weight: bold;">s t n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">i</span>
 ' / l w z  y <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> k b .
 </samp></pre>
       </td>
@@ -791,27 +791,27 @@ z . , l w  y <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span>
 <pre><samp>x p d w g  q f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u ,
 <span style="color: red; font-weight: bold;">r n t s</span> y  j l <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
 b k <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> v z  m <span style="color: red; font-weight: bold;">h</span> ' ; .
-</samp></pre>          
+</samp></pre>
       </td>
       <td>
-flame-cs-ns          
+flame-cs-ns
 <pre><samp>x p d w g  j f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u ~
 <span style="color: red; font-weight: bold;">r n t s</span> y  q l <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
 z b k <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> v  m <span style="color: red; font-weight: bold;">h</span> ~ ~ ~
-</samp></pre>          
+</samp></pre>
       <td>
-flame-cs-ns-swap-jq          
+flame-cs-ns-swap-jq
 <pre><samp>x p d w g  q f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u j
 <span style="color: red; font-weight: bold;">r n t s</span> y  ~ l <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
 z b k <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> v  m <span style="color: red; font-weight: bold;">h</span> ~ ~ ~
-</samp></pre>          
+</samp></pre>
       </td>
       <td>
-flame-cs-jbs-swap-jq          
+flame-cs-jbs-swap-jq
 <pre><samp>x p d w g  q f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u j
 <span style="color: red; font-weight: bold;">r n t s</span> y  - l <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
 z b k <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> v  m <span style="color: red; font-weight: bold;">h</span> . , \
-</samp></pre>          
+</samp></pre>
       </td>
     </tr>
     <tr>
@@ -822,28 +822,28 @@ z b k <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> v  m <
 <pre><samp>v l d m '  z f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u j
 <span style="color: red; font-weight: bold;">s r t</span> <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> y  b <span style="color: red; font-weight: bold;">n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
 x k g w q  p h . " ,
-</samp></pre>             
+</samp></pre>
       </td>
       <td>
-wave2-cs-ns     
+wave2-cs-ns
 <pre><samp>v l d m ~  z f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u j
 <span style="color: red; font-weight: bold;">s r t</span> <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> y  b <span style="color: red; font-weight: bold;">n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
 q x k g w  p h ~ ~ ~
-</samp></pre>          
+</samp></pre>
       </td>
       <td>
-wave2-cs-ns-swap-z     
+wave2-cs-ns-swap-z
 <pre><samp>v l d m z  ~ f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u j
 <span style="color: red; font-weight: bold;">s r t</span> <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> y  b <span style="color: red; font-weight: bold;">n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
 q x k g w  p h ~ ~ ~
-</samp></pre>          
+</samp></pre>
       </td>
       <td>
-wave2-cs-jbs-swap-z     
+wave2-cs-jbs-swap-z
 <pre><samp>v l d m z  - f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u j
 <span style="color: red; font-weight: bold;">s r t</span> <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> y  b <span style="color: red; font-weight: bold;">n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
 q x k g w  p h . , \
-</samp></pre>          
+</samp></pre>
       </td>
     </tr>
   </tbody>
