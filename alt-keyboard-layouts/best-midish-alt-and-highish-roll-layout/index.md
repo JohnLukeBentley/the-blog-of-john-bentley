@@ -1,6 +1,6 @@
 # What are the best layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria?
 
-Under construction @ 2026-02-10 16:04 ...
+Under construction @ 2026-02-10 16:08 ...
 
 ## Table of contents
 
@@ -714,24 +714,21 @@ Therefore our winners, in to-trial order, are:
 
     <pre><samp>f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u m j  ~ g d p q
     <span style="color: red; font-weight: bold;">h</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e</span> <span style="color: red; font-weight: bold;">r</span> x  v <span style="color: red; font-weight: bold;">s t n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">i</span>
-    z ~ ~ l w  y <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> k b ~
-    </samp></pre>
+    z ~ ~ l w  y <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> k b ~</samp></pre>
 
 1. **flame-cs-ns-swap-jq**
 
     <pre><samp>x p d w g  q f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u j
     <span style="color: red; font-weight: bold;">r n t s</span> y  ~ l <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
-    z b k <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> v  m <span style="color: red; font-weight: bold;">h</span> ~ ~ ~
-    </samp></pre>
+    z b k <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> v  m <span style="color: red; font-weight: bold;">h</span> ~ ~ ~</samp></pre>
 
 ... and our runner up (to trial if need be) is:
 
-3. wave2-cs-ns-swap-z
+1. wave2-cs-ns-swap-z
 
     <pre><samp>v l d m z  ~ f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u j
     <span style="color: red; font-weight: bold;">s r t</span> <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> y  b <span style="color: red; font-weight: bold;">n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
-    q x k g w  p h ~ ~ ~
-    </samp></pre>
+    q x k g w  p h ~ ~ ~</samp></pre>
 
 And our final shortlist in Excel is now ...
 
@@ -758,29 +755,25 @@ And our final shortlist in Excel is now ...
         <a href="https://github.com/samuelxyz/layouts#ints">https://github.com/samuelxyz/layouts#ints</a>
 <pre><samp>f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u m j  q g d p ,
 <span style="color: red; font-weight: bold;">h</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e</span> <span style="color: red; font-weight: bold;">r</span> x  v <span style="color: red; font-weight: bold;">s t n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">i</span>
-' / l w z  y <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> k b .
-</samp></pre>
+' / l w z  y <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> k b .</samp></pre>
       </td>
       <td>
 ints-cs-ns
 <pre><samp>f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u m j  q g d p ~
 <span style="color: red; font-weight: bold;">h</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e</span> <span style="color: red; font-weight: bold;">r</span> x  v <span style="color: red; font-weight: bold;">s t n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">i</span>
-z ~ ~ l w  y <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> k b ~
-</samp></pre>
+z ~ ~ l w  y <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> k b ~</samp></pre>
       </td>
       <td>
         ints-cs-ns-swap-q
 <pre><samp>f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u m j  ~ g d p q
 <span style="color: red; font-weight: bold;">h</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e</span> <span style="color: red; font-weight: bold;">r</span> x  v <span style="color: red; font-weight: bold;">s t n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">i</span>
-z ~ ~ l w  y <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> k b ~
-</samp></pre>
+z ~ ~ l w  y <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> k b ~</samp></pre>
       </td>
       <td>
         ints-cs-jbs-swap-q
 <pre><samp>f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u m j  - g d p q
 <span style="color: red; font-weight: bold;">h</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e</span> <span style="color: red; font-weight: bold;">r</span> x  v <span style="color: red; font-weight: bold;">s t n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">i</span>
-z . , l w  y <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> k b \
-</samp></pre>
+z . , l w  y <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> k b \</samp></pre>
       </td>
     </tr>
     <tr>
@@ -790,28 +783,24 @@ z . , l w  y <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span>
         <a href="https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.vb3u6rdlmxg1#heading=h.32kya2qv9d0">KLD > Chapter 16: High rolls-mid redirect layouts > ... > 16.3.2. HM or HML + vowels > NRTS / RNTS</a>
 <pre><samp>x p d w g  q f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u ,
 <span style="color: red; font-weight: bold;">r n t s</span> y  j l <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
-b k <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> v z  m <span style="color: red; font-weight: bold;">h</span> ' ; .
-</samp></pre>
+b k <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> v z  m <span style="color: red; font-weight: bold;">h</span> ' ; .</samp></pre>
       </td>
       <td>
 flame-cs-ns
 <pre><samp>x p d w g  j f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u ~
 <span style="color: red; font-weight: bold;">r n t s</span> y  q l <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
-z b k <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> v  m <span style="color: red; font-weight: bold;">h</span> ~ ~ ~
-</samp></pre>
+z b k <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> v  m <span style="color: red; font-weight: bold;">h</span> ~ ~ ~</samp></pre>
       <td>
 flame-cs-ns-swap-jq
 <pre><samp>x p d w g  q f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u j
 <span style="color: red; font-weight: bold;">r n t s</span> y  ~ l <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
-z b k <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> v  m <span style="color: red; font-weight: bold;">h</span> ~ ~ ~
-</samp></pre>
+z b k <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> v  m <span style="color: red; font-weight: bold;">h</span> ~ ~ ~</samp></pre>
       </td>
       <td>
 flame-cs-jbs-swap-jq
 <pre><samp>x p d w g  q f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u j
 <span style="color: red; font-weight: bold;">r n t s</span> y  - l <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
-z b k <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> v  m <span style="color: red; font-weight: bold;">h</span> . , \
-</samp></pre>
+z b k <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> v  m <span style="color: red; font-weight: bold;">h</span> . , \</samp></pre>
       </td>
     </tr>
     <tr>
@@ -821,32 +810,30 @@ z b k <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> v  m <
         <a href="https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.vb3u6rdlmxg1#heading=h.9ms661dgth73">KLD > Chapter 16: High roll-mid redirect layouts > ... > STRD / SRTD / SRTC</a>
 <pre><samp>v l d m '  z f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u j
 <span style="color: red; font-weight: bold;">s r t</span> <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> y  b <span style="color: red; font-weight: bold;">n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
-x k g w q  p h . " ,
-</samp></pre>
+x k g w q  p h . " ,</samp></pre>
       </td>
       <td>
 wave2-cs-ns
 <pre><samp>v l d m ~  z f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u j
 <span style="color: red; font-weight: bold;">s r t</span> <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> y  b <span style="color: red; font-weight: bold;">n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
-q x k g w  p h ~ ~ ~
-</samp></pre>
+q x k g w  p h ~ ~ ~</samp></pre>
       </td>
       <td>
 wave2-cs-ns-swap-z
 <pre><samp>v l d m z  ~ f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u j
 <span style="color: red; font-weight: bold;">s r t</span> <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> y  b <span style="color: red; font-weight: bold;">n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
-q x k g w  p h ~ ~ ~
-</samp></pre>
+q x k g w  p h ~ ~ ~</samp></pre>
       </td>
       <td>
 wave2-cs-jbs-swap-z
 <pre><samp>v l d m z  - f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u j
 <span style="color: red; font-weight: bold;">s r t</span> <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> y  b <span style="color: red; font-weight: bold;">n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
-q x k g w  p h . , \
-</samp></pre>
+q x k g w  p h . , \</samp></pre>
       </td>
     </tr>
   </tbody>
 </table>
 
 The end.
+
+
