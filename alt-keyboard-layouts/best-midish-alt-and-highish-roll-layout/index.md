@@ -1,6 +1,6 @@
 # What are the best layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria?
 
-Under construction @ 2026-02-10 16:08 ...
+Under construction @ 2026-02-10 16:12 ...
 
 ## Table of contents
 
@@ -790,6 +790,7 @@ flame-cs-ns
 <pre><samp>x p d w g  j f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u ~
 <span style="color: red; font-weight: bold;">r n t s</span> y  q l <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
 z b k <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> v  m <span style="color: red; font-weight: bold;">h</span> ~ ~ ~</samp></pre>
+      </td>
       <td>
 flame-cs-ns-swap-jq
 <pre><samp>x p d w g  q f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u j
