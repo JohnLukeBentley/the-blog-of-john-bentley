@@ -1,6 +1,6 @@
 # What are the best layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria?
 
-Under construction @ 2026-02-10 17:06 ...
+Under construction @ 2026-02-11 17:12 ...
 
 ## Table of contents
 
@@ -12,28 +12,31 @@ Under construction @ 2026-02-10 17:06 ...
 * [Runners up](#runners-up)
 * [Context](#context)
 * [Analysis](#analysis)
-	* [Overview](#overview)
-	* [Ways of speaking](#ways-of-speaking)
-	* [Keycraft customisation](#keycraft-customisation)
-		* [Layout customisation](#layout-customisation)
-		* [Weights file customisation](#weights-file-customisation)
-		* [Corpus](#corpus)
-	* [The stats](#the-stats)
-	* [Reading the stats](#reading-the-stats)
-	* [Elimination round 1 - Qwerty](#elimination-round-1---qwerty)
-		* [Qwerty is shit](#qwerty-is-shit)
-		* [... but not all shit](#-but-not-all-shit)
-	* [Elimination round 2 - eliminating highish alternation layouts](#elimination-round-2---eliminating-highish-alternation-layouts)
-	* [Elimination round 3 - eliminating layouts for ad hoc reasons](#elimination-round-3---eliminating-layouts-for-ad-hoc-reasons)
-	* [Winner round 1 - ints-cs-ns](#winner-round-1---ints-cs-ns)
-	* [Elimination round 4 - the battle of the highish roll; lowish redirect layouts](#elimination-round-4---the-battle-of-the-highish-roll-lowish-redirect-layouts)
-	* [Elimination round 5 - wave2-cs-ns V flame-cs-ns](#elimination-round-5---wave2-cs-ns-v-flame-cs-ns)
-		* [Issue 1: SFB index concentration](#issue-1-sfb-index-concentration)
-		* [Issue 2: the trigram "str"](#issue-2-the-trigram-str)
-		* [Issue 3: general stats advantage](#issue-3-general-stats-advantage)
-		* [Modifying the layouts](#modifying-the-layouts)
-	* [Can ints-cs-ns be improved?](#can-ints-cs-ns-be-improved)
+  * [Overview](#overview)
+  * [Ways of speaking](#ways-of-speaking)
+  * [Keycraft customisation](#keycraft-customisation)
+    * [Layout customisation](#layout-customisation)
+    * [Weights file customisation](#weights-file-customisation)
+    * [Corpus](#corpus)
+  * [The stats](#the-stats)
+  * [Reading the stats](#reading-the-stats)
+  * [Elimination round 1 - Qwerty](#elimination-round-1---qwerty)
+    * [Qwerty is shit](#qwerty-is-shit)
+    * [... but not all shit](#-but-not-all-shit)
+  * [Elimination round 2 - eliminating highish alternation layouts](#elimination-round-2---eliminating-highish-alternation-layouts)
+  * [Elimination round 3 - eliminating layouts for ad hoc reasons](#elimination-round-3---eliminating-layouts-for-ad-hoc-reasons)
+  * [Winner round 1 - ints-cs-ns](#winner-round-1---ints-cs-ns)
+  * [Elimination round 4 - the battle of the highish roll; lowish redirect layouts](#elimination-round-4---the-battle-of-the-highish-roll-lowish-redirect-layouts)
+  * [Elimination round 5 - wave2-cs-ns V flame-cs-ns](#elimination-round-5---wave2-cs-ns-v-flame-cs-ns)
+    * [Issue 1: SFB index concentration](#issue-1-sfb-index-concentration)
+    * [Issue 2: the trigram "str"](#issue-2-the-trigram-str)
+    * [Issue 3: general stats advantage](#issue-3-general-stats-advantage)
+    * [Modifying the layouts](#modifying-the-layouts)
+  * [Can ints-cs-ns be improved?](#can-ints-cs-ns-be-improved)
 * [Wrapping up](#wrapping-up)
+    * [Review](#review)
+    * [Symbols layer](#symbols-layer)
+    * [Final Result](#final-result)
 
 ## Intro
 
@@ -85,47 +88,45 @@ The other idiosyncratic criteria include:
 * No **repeat key**. As I don't think I'd prefer this over just tapping the relevant key twice; or this might be an advanced (for me).
 * Consistent with the above otherwise trying to find the layouts that score best on **the metrics overall**. Noting if you optimize for one metric that can penalize one or more other metrics.
 
-## The winners
+## The winners and runner up
 
-My abbreviations:
+My abbreviations for layout naming:
 
 * "cs" for "colstag", a column staggered keyboard.
 * "ns" for "no symbols". That is, symbols where removed from the layout before that part of my analysis that used the analyser [keycraft](https://github.com/rbscholtus/keycraft).
+* "jbs" for "John Bentley symbols". That is, symbols I define on the layout, which are likely different from symbols defined on the original layout.
 * "~" (tilde) means no key, not the tilde key. Following keycraft convention.
 
-On my analysis, and using the criteria, the winning layouts are:
+In the layout diagram, following conventions from @ec0's [Keyboard layouts doc (3rd edition)](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.2yb5bwiy1wa8#heading=h.rwlzs0nuaefi) (KLD) :
 
-**ints-cs-ns** by Tanamr. A "3roll" layout.
+* The topmost vowels are coloured <span style="color: rgb(18, 183, 18); font-weight: bold;">green and bolded</span>, 
+* The topmost consonants are coloured <span style="color: red; font-weight: bold;">red and bolded</span>,
+* The "c" character is coloured <span style="color: rgb(13, 130, 247); font-weight: bold;">blue and bolded</span>
 
-```
-f o u m j  q g d p ~
-h a e r x  v s t n i
-z ~ ~ l w  y c k b ~
-```
+On my analysis, and using the criteria, the winning layouts, in to-trial order, are:
 
-(See the angle modded version with symbols at [https://github.com/samuelxyz/layouts#ints](https://github.com/samuelxyz/layouts#ints))
+**ints-cs-jbs-swap-q**. Based on [ints by Tanamr](https://github.com/samuelxyz/layouts#ints), but un-angle mod, colstag, John Bentley symbols, with a swap.
 
-**wave2-cs-ns** by ec0. A "Highish Roll; midish redirect (STRD/SRTD/SRTC)" layout.
+<pre><samp>f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u m j  ~ g d p q
+<span style="color: red; font-weight: bold;">h</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e</span> <span style="color: red; font-weight: bold;">r</span> x  v <span style="color: red; font-weight: bold;">s t n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">i</span>
+z . , l w  y <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> k b ~
+</samp></pre>
 
-```text
-v l d m ~   z f o u j
-s r t c y   b n a e i
-q x k g w   p h ~ ~ ~
-```
+**flame-cs-jbs-swap-j**. Based on [flame by Oxey](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.vb3u6rdlmxg1#heading=h.32kya2qv9d0), but un-angle mod, colstag, John Bentley symbols, with a swap.
 
-(See the angle modded version with symbols at [Keyboard Layout Document > Chapter 16: High roll-mid redirect layouts > ... > STRD / SRTD / SRTC](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.vb3u6rdlmxg1#heading=h.9ms661dgth73))
+<pre><samp>x p d w g  ~ f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u j
+<span style="color: red; font-weight: bold;">r n t s</span> y  q l <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
+z b k <span style="color: rgb(13, 130,  247); font-weight: bold;">c</span> v  m <span style="color: red; font-weight: bold;">h</span> , . ~
+</samp></pre>
 
-## Runners up
+The runner up, a backup to trial if the above don't click, is:
 
-**sturdy-cs-ns** by Oxey. Highish Roll; lowish redirect (STRD/SRTD/SRTC)
+**wave2-cs-jbs-swap-z**. Based on [ wave2 by ec0 (anglemod)](https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.vb3u6rdlmxg1#heading=h.9ms661dgth73), but un-angle mod, colstag, John Bentley symbols, with a swap.
 
-```text
-v m l c p  x f o u j
-s t r d y  ~ n a e i
-z k q g w  b h ~ ~ ~
-```
-
-(See the colstag version with symbols at [https://oxey.dev/sturdy/index.html](https://oxey.dev/sturdy/index.html))
+<pre><samp>v l d m z  ~ f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u j
+<span style="color: red; font-weight: bold;">s r t</span> <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> y  b <span style="color: red; font-weight: bold;">n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
+q x k g w  p h , . ~
+</samp></pre>
 
 ## Context
 
@@ -620,7 +621,7 @@ It's a knife edge decision.
 
 #### Modifying the layouts
 
-Let's have a crack at modifying the layouts for better symbols positioning. Idiosyncratically I have a high use of the minus/hyphen "-" symbol as I: use it often in markdown lists; and in Cascading Style Sheets (CSS). So I'll want this on the main layer in a handy position. For me that's on the right hand, and on an index.
+Let's have a crack at modifying the layouts for better symbols positioning. So I'll want this on the main layer in a handy position. For me that's on the right hand, and on an index.
 
 Modding wave2-cs-ns and flame-cs-ns yields the following variants that aren't significantly different from their base layout ...
 
@@ -657,18 +658,16 @@ The variants that best match my idiosyncratic wish for a right index symbol slot
 <span style="color: red; font-weight: bold;">s r t</span> <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> y  b <span style="color: red; font-weight: bold;">n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
 q x k g w  p h ~ ~ ~
 </samp></pre>
+**flame-cs-ns-swap-j**:
 
-**flame-cs-ns-swap-jq**:
-
-<pre><samp>x p d w g  q f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u j
-<span style="color: red; font-weight: bold;">r n t s</span> y  ~ l <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
+<pre><samp>x p d w g  ~ f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u j
+<span style="color: red; font-weight: bold;">r n t s</span> y  q l <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
 z b k <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> v  m <span style="color: red; font-weight: bold;">h</span> ~ ~ ~
 </samp></pre>
-And, on the knife edge I'll come down on the side of flame-cs-ns-swap-jq as the winner, for the symbol slot being on the home row (probably for '-' but maybe for '*'). It's going to see higher frequency use than 'q'.
 
-And so I'll be seeing what better FLD and POH feels like at the cost of SFB and HSB.
+And, on the knife edge I'll come down on the side of flame-cs-ns-swap-j as the winner. And so I'll be seeing what better FLD and POH feels like at the cost of SFB and HSB.
 
-So **flame-cs-ns-swap-jq** as the winner, and given it's a close call, wave2-cs-ns-swap-z will be the runner up.
+So **flame-cs-ns-swap-j** as the winner, and given it's a close call, wave2-cs-ns-swap-z will be the runner up.
 
 ### Can ints-cs-ns be improved?
 
@@ -688,7 +687,7 @@ z ~ ~ l w  y <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span>
 </samp></pre>
 And that's causes a negligible change in the stats.
 
-<a href="keycraft-ints-variants.png">
+ <a href="keycraft-ints-variants.png">
   <img
     src="keycraft-ints-variants.png"
     alt="Keycraft ints variants"
@@ -708,23 +707,76 @@ So **ints-cs-ns-swap-q** is our winner of the ints-cs-ns variants.
 
 ## Wrapping up
 
+#### Review
+
 Therefore our winners, in to-trial order, are:
 
 1. **ints-cs-ns-swap-q**
-2. **flame-cs-ns-swap-jq**
+2. **flame-cs-ns-swap-j**
 
 ... and our runner up (to trial if need be) is:
 
 3. wave2-cs-ns-swap-z
 
-And our final shortlist in Excel is now ...
+And our shortlist of no symbol layouts in Excel is now ...
 
-<a href="final-shortlist.png">
+<a href="shortlist-of-no-symbol-layouts.png">
   <img
-    src="final-shortlist.png"
-    alt="Final shortlist"
+    src="shortlist-of-no-symbol-layouts.png"
+    alt="Shortlist of no symbol layouts	"
     style="cursor: zoom-in;" />
 </a>
+
+#### Symbols layer
+
+I have a symbols layer - [ZSA > Voyager > Oryx > John Bentley Graphite+ > Symbols Layer](https://configure.zsa.io/voyager/layouts/YRYG4/PB5J79/2) (stable link) ...
+
+<a href="JohnBentleySymbolsLayerAt20250210.png">
+  <img
+    src="JohnBentleySymbolsLayerAt20250210.png"
+    alt="John Bentley's Symbols Layer at 2026-02-10"
+    style="cursor: zoom-in;" />
+</a>
+
+... that I'm fairly happy with. It's the result of optimising for a combination of:
+
+* English prose (particularly for the frequent symbols: `"'?:;`); and
+* The following programming languages: (x)html, xml, css, javascript, typescript, java, kotlin, powershell, and php.
+
+(Above all else having `<`,`/`,`>` on home row ring, middle, and index fingers is very comfortable for (x)html work.)
+
+But there's necessarily an interplay between this symbols layer, as for any symbols layer, with the symbols one wants to have on the main layer.
+
+We can plot unigrams by taking results from `keycraft corpus --corpus shai.txt` and plotting them in Excel ...
+
+<a href="shai-unigrams-top38.png">
+  <img
+    src="shai-unigrams-top38.png"
+    alt="keycraft shai unigrams, top 38"
+    style="cursor: zoom-in;" />
+</a>
+
+... and observe that the following symbols are the most frequent `.,-'"`.
+
+Those top five are therefore good candidates for the main layer.
+
+However, in my trials of interplay between the main layer and symbols layer I've found that putting single and double quotes on the symbols layers aids with the top bigrams for programming ...
+
+<a href="programming-corpus-bigrams-quotes-highlighted.png">
+  <img
+    src="programming-corpus-bigrams-quotes-highlighted.png"
+    alt=""
+    style="cursor: zoom-in;" />
+</a>
+
+Less so with hyphen, `-`, but that also works well on the symbols layer, on the middle finger home button. So on the main layer I just "need" to position `.,`
+
+So I'll define, for the main layer "John Bentley symbols":
+
+* `,.` as mandatory and on the middle and ring fingers respectively;
+* Leave other symbol slots as spare (designated with tilde `~`). That is, it's up to you what you use them for. I have (the low frequency) underscore `_` and backslash `\` left over as something I can place on a main layer, and let those shine through to the symbols layer. However, through trial and refinement I may push those onto the symbols layer, find alternate uses for these "spare" symbol slots. Command keys perhaps, like "Del" or "F5" (browser refresh). 
+
+#### Final Result
 
 <table style="text-align: left;">
   <caption>
@@ -744,11 +796,11 @@ And our final shortlist in Excel is now ...
       <th>
          1. ints (winner)<br />
       </th>
-      <td style="white-space: nowrap;">
-        <a href="https://github.com/samuelxyz/layouts#ints">ints by Tanamr (rowstag anglemod)</a>
+      <td>
+        <a href="https://github.com/samuelxyz/layouts#ints">ints by Tanamr (anglemod)</a>
 <pre><samp>f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u m j  q g d p ,
 <span style="color: red; font-weight: bold;">h</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e</span> <span style="color: red; font-weight: bold;">r</span> x  v <span style="color: red; font-weight: bold;">s t n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">i</span>
-' / l w z  y <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> k b .
+ ' / l w z  y <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> k b .
 </samp></pre>
       </td>
       <td>
@@ -767,21 +819,21 @@ z ~ ~ l w  y <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span>
       </td>
       <td style="border: 4px solid rgb(18, 183, 18);">
         ints-cs-jbs-swap-q
-<pre><samp>f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u m j  - g d p q
+<pre><samp>f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u m j  ~ g d p q
 <span style="color: red; font-weight: bold;">h</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e</span> <span style="color: red; font-weight: bold;">r</span> x  v <span style="color: red; font-weight: bold;">s t n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">i</span>
-z . , l w  y <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> k b \
+z . , l w  y <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> k b ~
 </samp></pre>
       </td>
     </tr>
     <tr>
       <th>
-        1. flame (winner)
+        2. flame (winner)
       </th>
       <td>
         <a href="https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.vb3u6rdlmxg1#heading=h.32kya2qv9d0">flame  by Oxey (anglemod)</a>  
 <pre><samp>x p d w g  q f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u ,
 <span style="color: red; font-weight: bold;">r n t s</span> y  j l <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
-b k <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> v z  m <span style="color: red; font-weight: bold;">h</span> ' ; .
+ b k <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> v z  m <span style="color: red; font-weight: bold;">h</span> ' ; .
 </samp></pre>
       </td>
       <td>
@@ -792,29 +844,29 @@ z b k <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> v  m <
 </samp></pre>
       </td>
       <td>
-flame-cs-ns-swap-jq
-<pre><samp>x p d w g  q f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u j
-<span style="color: red; font-weight: bold;">r n t s</span> y  ~ l <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
+flame-cs-ns-swap-j
+<pre><samp>x p d w g  ~ f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u j
+<span style="color: red; font-weight: bold;">r n t s</span> y  q l <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
 z b k <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> v  m <span style="color: red; font-weight: bold;">h</span> ~ ~ ~
 </samp></pre>
       </td>
       <td style="border: 4px solid rgb(18, 183, 18);">
-flame-cs-jbs-swap-jq
-<pre><samp>x p d w g  q f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u j
-<span style="color: red; font-weight: bold;">r n t s</span> y  - l <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
-z b k <span style="color: rgb(13, 130,  247); font-weight: bold;">c</span> v  m <span style="color: red; font-weight: bold;">h</span> . , \
+flame-cs-jbs-swap-j
+<pre><samp>x p d w g  ~ f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u j
+<span style="color: red; font-weight: bold;">r n t s</span> y  q l <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
+z b k <span style="color: rgb(13, 130,  247); font-weight: bold;">c</span> v  m <span style="color: red; font-weight: bold;">h</span> , . ~
 </samp></pre>
       </td>
     </tr>
     <tr>
       <th>
-        1. wave2 (runner up)
+        3. wave2 (runner up)
       </th>
       <td>
         <a href="https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o/edit?tab=t.vb3u6rdlmxg1#heading=h.9ms661dgth73">wave2 by ec0 (anglemod)</a>
 <pre><samp>v l d m '  z f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u j
 <span style="color: red; font-weight: bold;">s r t</span> <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> y  b <span style="color: red; font-weight: bold;">n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
-x k g w q  p h . " ,
+ x k g w q  p h . " ,
 </samp></pre>
       </td>
       <td>
@@ -833,15 +885,14 @@ q x k g w  p h ~ ~ ~
       </td>
       <td style="border: 4px solid;">
 wave2-cs-jbs-swap-z
-<pre><samp>v l d m z  - f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u j
+<pre><samp>v l d m z  ~ f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u j
 <span style="color: red; font-weight: bold;">s r t</span> <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> y  b <span style="color: red; font-weight: bold;">n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
-q x k g w  p h . , \
+q x k g w  p h , . ~
 </samp></pre>
       </td>
     </tr>
   </tbody>
 </table>
-
 
 The end.
 
