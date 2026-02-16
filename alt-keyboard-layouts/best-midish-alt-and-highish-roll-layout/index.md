@@ -1,6 +1,6 @@
-# Best layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria?
+# Best layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria
 
-Under construction @ 2026-02-16 15:41 ...
+Under construction @ 2026-02-16 15:43 ...
 
 ## Table of contents
 
