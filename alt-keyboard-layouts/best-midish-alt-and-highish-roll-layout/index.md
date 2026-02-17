@@ -1,6 +1,6 @@
 # Best layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria
 
-Under construction @ 2026-02-17 11:56 ...
+Under construction @ 2026-02-17 11:59 ...
 
 ## Table of contents
 
@@ -86,7 +86,7 @@ q x k g w  p h , . ~
 
 I have chosen these layouts having mind they'll work with a symbols layer of mine - [ZSA > Voyager > Oryx > John Bentley Graphite+ > Symbols Layer](https://configure.zsa.io/voyager/layouts/YRYG4/PB5J79/2) (stable link), built for:
 
-* English prose (particularly for the most frequent symbols after `.` and `,`: `-'":?!/;`); and
+* English prose (particularly for the most frequent symbols after `.` and `,`: `-'":?!/;`; and
 * The following programming (or "markup", or "style", or "scripting") languages: (x)html, xml, css, javascript, typescript, java, kotlin, powershell, and php.
 
 I'm fairly happy with that symbols layer, although it is subject to further tweaking, along with the symbols I'll have on the main layer. Although I think it likely, on the main layer, `.` and `,` will remain where they are.
@@ -812,7 +812,7 @@ I have a symbols layer - [ZSA > Voyager > Oryx > John Bentley Graphite+ > Symbol
 
 I'm fairly happy with this symbols layer. It's the result of optimising for a combination of:
 
-* English prose (particularly for the most frequent symbols after `.` and `,`: `-'":?!/;`); and
+* English prose (particularly for the most frequent symbols after `.` and `,`: `-'":?!/;`; and
 * The following programming (or "markup", or "style", or "scripting") languages: (x)html, xml, css, javascript, typescript, java, kotlin, powershell, and php.
 
 Above all else having `<`,`/`,`>` on home row ring, middle, and index fingers is very comfortable for (x)html work.
