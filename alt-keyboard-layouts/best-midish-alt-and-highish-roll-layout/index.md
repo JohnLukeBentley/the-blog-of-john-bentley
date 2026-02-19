@@ -1,6 +1,6 @@
 # Best layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria
 
-Under construction @ 2026-02-19 17:05 ...
+Under construction @ 2026-02-19 17:33 ...
 
 ## Table of contents
 
@@ -914,8 +914,8 @@ z . , l w  y <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span>
       </th>
       <td>
         <a href="https://github.com/rbscholtus/keycraft/blob/main/data/layouts/flame.klf">flame by Oxey (anglemod). keycraft version.</a>
-<pre><samp>x p d w g  q f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u ,
-<span style="color: red; font-weight: bold;">r n t s</span> y  j l <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
+<pre><samp>x p d w g  j f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u ,
+<span style="color: red; font-weight: bold;">r n t s</span> y  q l <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
  b k <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> v z  m <span style="color: red; font-weight: bold;">h</span> ' ; .
 </samp></pre>
       </td>
