@@ -1,6 +1,6 @@
-# Best layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria
+# Best keyboard layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria
 
-Under construction @ 2026-02-22 09:40 ...
+Under construction @ 2026-02-22 10:38 ...
 
 ## Table of contents
 
@@ -134,11 +134,8 @@ So we are after a layout that is midish-to-lowish alternating, highish roll, and
 The other idiosyncratic criteria include:
 
 * **Colstag** (column staggered) layout. As colstag is an ergonomic improvement on rowstag.
-
 * Excluding **thumb alpha layouts**. To keep the thumb keys for other things like backspace, tab, enter, space. As we'll later see with regard to sturde (a derivation of sturdy with a thumb alpha key) these layouts can be well optimised across many metrics. However, as a personal preference, I'll avoid a thumb alpha layout.
-
 * Must have **bottom row symbol slots** on at least ring and middle fingers. Because I'm set in my qwerty ways for `.` and `,` and so want these on my main layer (although they could be on the left hand).
-
 * Optimising the (main) layer for **general English**.
 
   I'm wanting to optimise my *keyboard* for typing both general English (prose, essays, etc.) and programming. The ideal corpus of words (excluding symbols) in programming will be different from ideal corpus of words (excluding symbols) in general English. For example, the keyword "String" is going to appear more frequently in programming. However, the main speed and smoothness impediment in programming are the symbol keys. I'll be taking care of symbols largely with a separate symbols layer; with some high frequency general English symbols on the main layer (`.` and `,`). And so, for the main layer (what this article is about) I'll:
@@ -147,9 +144,7 @@ The other idiosyncratic criteria include:
   - In my analysis I'll remove symbols from the candidate layouts. Allowing that one's preferred symbols can be inserted in after analysis. And treating symbols optimisation as a separate consideration.
 
 * No **magic key**. A magic key is a worthy innovation by Ikcelaks, "a key that dynamically adjusts its output based on the most recent previous keycode." ([https://github.com/Ikcelaks/keyboard_layouts](https://github.com/Ikcelaks/keyboard_layouts)). However, I'll avoid a magic key as this would make the layout advanced (for me).
-
 * No **repeat key**. As I don't think I'd prefer this over just tapping the relevant key twice; and/or this might be an advanced (for me).
-
 * Consistent with the above otherwise trying to find the layouts that score best on **the metrics overall**. Noting if you optimize for one metric that can penalize one or more other metrics.
 
 ## Context
