@@ -1,6 +1,6 @@
 # Best layouts that are midish-to-lowish alternating, highish roll, and matching other idiosyncratic criteria
 
-Under construction @ 2026-02-22 08:40 ...
+Under construction @ 2026-02-22 09:40 ...
 
 ## Table of contents
 
@@ -31,7 +31,7 @@ Under construction @ 2026-02-22 08:40 ...
   * [Elimination round 5 - wave2-cs-ns V flame-cs-ns](#elimination-round-5---wave2-cs-ns-v-flame-cs-ns)
     * [Issue 1: SFB index concentration](#issue-1-sfb-index-concentration)
     * [Issue 2: the trigram "str"](#issue-2-the-trigram-str)
-    * [Issue 3: general stats advantage](#issue-3-general-stats-advantage)
+    * [Issue 3: general metrics advantage](#issue-3-general-metrics-advantage)
     * [Modifying the layouts](#modifying-the-layouts)
   * [Can ints-cs-ns be improved?](#can-ints-cs-ns-be-improved)
 * [Wrapping up](#wrapping-up)
@@ -226,11 +226,6 @@ Note from keycraft > readme > Supported Metrics:
 
 > Bigram, skipgram, and trigram metrics follow the Keyboard Layouts Doc.
 
-When I refer to metric **value** I'll use either of what I'll call generically **@ec0 levels**, from KLD:
-
-* If using **@ec0's 9 rung English word** "Min, Very low, Low, Mid low, Mid, Mid high, High, Very high, Max" - I'll use that word. E.g. I might say "wave2-cs-ns has a *very high* FSB"; or
-* Speak broadly to refer to one of **3 bands** (within which there is the further division into three rungs). To do this I'll use "Lowish", "Midish", or "Highish". E.g. I might say "wave2-cs-ns has a highish FSB". This also might reflect @ec0's 3 colour bands: green, yellow, red (green being the most desirable for a metric).
-
 ### Layout key
 
 My abbreviations for layout naming:
@@ -354,13 +349,11 @@ A **metric cell's background** is:
 
 There's no rigorous algorithm I followed when applying these cell backgrounds. These where applied often semi-arbitrarily. For now I suggest ignore them.
 
-A metric cell's background is:
-
-* Darker green or darker yellow for slightly worse metrics for similar scoring layout variants of the same type. That is, I have variants of ints, wave2, and flame; and apply cell background colours for these.
+A metric cell's background is shaded darker green or darker yellow for slightly worse metrics for similar scoring layout variants of the same type. That is, I have variants of ints, wave2, and flame; and apply cell background shading for these.
 
 Likewise, for now, I suggest ignore these background colours.
 
-**graphite-cs-ns** (colstag no symbols) has its row background in grey as that's useful as a middling reference layout, for:
+**graphite-cs-ns** (colstag, no symbols) has its row background in grey as that's useful as a middling reference layout, for:
 
 * It has highish alternation (and some may see that as desirable);
 
@@ -370,11 +363,16 @@ Likewise, for now, I suggest ignore these background colours.
 
   > If you are new to alt keyboard layouts, the [AKL Discord](https://discord.gg/a5yCn3BzBs) typically recommends starting with [Gallium](https://layouts.wiki/layouts/2023/gallium/) ... [Graphite](https://layouts.wiki/layouts/2023/graphite/) is also commonly recommended .... Gallium and Graphite are very similar to each other, but were developed independently ...
 
-And so note also in the keycraft output graphite-cs-ns is used as the reference layout against which other layouts are scored, and the deltas calculated.
+And so note also in the keycraft `rank`  output graphite-cs-ns is used as the reference layout against which other layouts are scored, and the deltas calculated.
 
-In the end I find it easier to compare layouts on an **absolute metric score basis**, and the @ec0 levels gives us a way to do that.
+In the end, rather than compare layout metrics with keycraft `rank`'s relative deltas I find it easier to use an **absolute metric score basis**. @ec0 levels gives us a way to do that...
 
-I use **@ec0 levels** - the 9 rung English words, and the 3 colour bands - but **the values I use to define these are custom**. For each metric:
+Looking at the Excel output when I refer to metric **value** I'll use either of what I'll call generically **@ec0 levels**, from KLD:
+
+* If using **@ec0's 9 rung English word** "Min, Very low, Low, Mid low, Mid, Mid high, High, Very high, Max" - I'll use that word. E.g. I might say "wave2-cs-ns has a *very high* FSB"; or
+* Speak broadly to refer to one of **3 bands** (within which there is the further division into three rungs). To do this I'll use "Lowish", "Midish", or "Highish". E.g. I might say "wave2-cs-ns has a highish FSB". This also might reflect @ec0's 3 colour bands: green, yellow, red (green being the most desirable for a metric).
+
+I use **@ec0 levels** but **the values I use to define these are custom**. For each metric:
 
 * I've largely taken the lowest and highest values for the 16 layouts, excluding the outlier (often qwerty) as defining the min and max values; and
 * Occasionally I've gone beyond those min and max values as I did some analysis against the AKL corpus (which I won't show in this article as that corpus is ultimately irrelevant).
@@ -386,7 +384,7 @@ I use **@ec0 levels** - the 9 rung English words, and the 3 colour bands - but *
     style="cursor: zoom-in;" />
 </a>
 
-The metric **ICC** stands for "Index Centre Column". This is not, as of writing, a keycraft metric, but it is derived from the keycraft metrics as the sum of C5, and C6.
+The metric **ICC** stands for "Index Centre Column". This is not, as of writing, a keycraft metric, but it is derived from the keycraft metrics as the sum of C5 and C6.
 
 Using, for example, `keycraft rank graphite-cs-ns --weights-file john.txt --metrics C5,C6` gives ...
 
@@ -515,7 +513,7 @@ That leaves us with plenty of other layouts with midish to lowish alternation, t
 
 We can next eliminate some layouts for ad hoc reasons. We'll start from the lower scoring layouts:
 
-**seht-drai-cs-ns**. It fails our criteria "Must have bottom row symbol slots on at least middle and ring fingers"; and it has highish FSB ("Full Scissor Bigram").
+**seht-drai-cs-ns**. It fails our criteria "Must have bottom row symbol slots on at least ring and middle fingers"; and it has highish FSB ("Full Scissor Bigram").
 
 **rain-cs-ns-cmini**. It has Highish HSB ("Half Scissor Bigram"), Highish HSS ("Half Scissor Skipgram"). Arguably Scissor metrics are the most important; and to score badly on a scissor (whether FSB, HSB, FSS, or HSS) is fatal unless there are overriding reasons. And given flame-cs-ns and wave-cs-ns score better on a range of relevant metrics - FSB, HSB, FSS, HSS, FLD, RLD, POH - we'll boot out rain-cs-ns-cmini.
 
@@ -525,7 +523,7 @@ We can next eliminate some layouts for ad hoc reasons. We'll start from the lowe
 
 > The drawback of these layouts is that there are a lot of SFBs concentrated on the left index (**SC, YS, WS, GS…**) leading to high movement on that finger.
 
-This can be identified with `keycraft analyse flame-cs-ns wave2-cs-ns ints-cs-ns sturdy-cs-ns`. An orange mark identifies a SFB concentrated on the index (left or right).
+This can be explored with `keycraft analyse flame-cs-ns wave2-cs-ns ints-cs-ns sturdy-cs-ns`. An orange mark identifies a SFB concentrated on the index (left or right).
 
 <a href="layouts-with-sfb-index-concentration.png">
   <img
@@ -543,7 +541,7 @@ Scoring these layouts *without* SFB concentrated on the index (higher is better)
 
 Although it's true, therefore, that flame-cs-ns has higher SFB concentration on the index ... it's not by much. They all have a large concentration of SFB on the index.
 
-Moreover, flame-cs-ns scores significantly better on several other metrics compared to, say wave-cs-ns. Notably, RED, RED-WEAK, FLD, POH. (Although wave-cs-ns beats flame-cs-ns on other metrics).
+Moreover, flame-cs-ns scores better on several other metrics compared to, say wave-cs-ns. Notably, RED, RED-WEAK, FLD, POH. (Although wave-cs-ns beats flame-cs-ns on other metrics).
 
 So let's leave flame-cs-ns in contention for now.
 
@@ -574,7 +572,7 @@ At the end of our elimination round we have a shortlist ...
 
 ### Winner round 1 - ints-cs-ns
 
-From the remaining layouts there is one in a distinctly different class: ints-cs-ns, in the "3rolls" class. And it is closest to our ideal in having midish-to-lowish alternating, highish roll. It has:
+From our current shortlist there is one in a distinctly different class: ints-cs-ns, in the "3rolls" class. And it is closest to our ideal in having midish-to-lowish alternating, highish roll. It has:
 
 * Very low ALT;
 * Max 2RL;
@@ -632,19 +630,7 @@ We next pit:
 * wave2-cs-ns, a "Highish Roll; **midish** redirect (STRD/SRTD/SRTC)" layout; against
 * flame-cs-ns, a "Highish Roll; **lowish** redirect (NRTS / RNTS)" layout
 
-wave2-cs-ns:
-<pre><samp>v l d m ~  z f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u j
-<span style="color: red; font-weight: bold;">s r t</span> <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> y  b <span style="color: red; font-weight: bold;">n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
-q x k g w  p h ~ ~ ~
-</samp></pre>
-
-flame-cs-ns:
-
-<pre><samp>x p d w g  j f <span style="color: rgb(18, 183, 18); font-weight: bold;">o</span> u ~
-<span style="color: red; font-weight: bold;">r n t s</span> y  q l <span style="color: rgb(18, 183, 18); font-weight: bold;">a e i</span>
-z b k <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> v  m <span style="color: red; font-weight: bold;">h</span> ~ ~ ~
-</samp></pre>
-We'll dive into some niche considerations before looking at any general stats advantage between the two.
+We'll dive into some niche considerations before looking at any general metrics advantage between the two.
 
 #### Issue 1: SFB index concentration
 
@@ -676,11 +662,11 @@ So, as a general English matter it wouldn't seem worth especially weighting "str
 
 As a programmer "str" will appear more frequently in virtue of the data type "string". As previously mentioned, optimising for programming is going to benefit far more through optimising a symbols layer (and the interplay of the few symbols on the main layer and the symbols layer).
 
-So there is the slight advantage to **flame-cs-ns** (and sturdy-cs-ns) over wave2-cs-ns. But overall I don't think "str" is worth taking into account, in the contest between flame (or sturdy) and wave2. But if it bugged you particularly, and you must have a layout with "str" as a roll, I'd recommend using flame over sturdy for the advantages mentioned in [Elimination round 4 - the battle of the highish roll; lowish redirect layouts](#elimination-round-4---the-battle-of-the-highish-roll-lowish-redirect-layouts).
+So there is the slight advantage to **flame-cs-ns** (and sturdy-cs-ns) over wave2-cs-ns. But overall I don't think "str" is worth taking into account, in the contest between flame (or sturdy) and wave2. But if it bugged you particularly, and you must have a layout with "str" as a roll, I'd recommend using flame over sturdy for the advantages mentioned in [Elimination round 4 - the battle of the highish roll; lowish redirect layouts - flame-cs-ns V sturdy-cs-ns](#elimination-round-4---the-battle-of-the-highish-roll-lowish-redirect-layouts---flame-cs-ns-v-sturdy-cs-ns).
 
-#### Issue 3: general stats advantage
+#### Issue 3: general metrics advantage
 
-None of the above seem decisive, we let's look at the general stats advantage ...
+None of the above seem decisive, we let's look at the general metrics advantage ...
 
 <a href="wave2-v-flame.png">
   <img
@@ -766,7 +752,7 @@ So with **flame-cs-ns-swap-j** as the winner wave2-cs-ns-swap-z will be the runn
 <span style="color: red; font-weight: bold;">h</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">a e</span> <span style="color: red; font-weight: bold;">r</span> x  v <span style="color: red; font-weight: bold;">s t n</span> <span style="color: rgb(18, 183, 18); font-weight: bold;">i</span>
 z ~ ~ l w  y <span style="color: rgb(13, 130, 247); font-weight: bold;">c</span> k b ~
 </samp></pre>
-Swapping in a right hand (stretched) index symbol slot for q gives us
+Swapping in a right hand (stretched) index symbol slot for q gives us ...
 
 **ints-cs-ns-swap-q**:
 
@@ -805,7 +791,9 @@ Therefore our winners, in to-trial order, are:
 
 ... and our runner up (to trial if need be) is:
 
-3. wave2-cs-ns-swap-z
+<ol start="3">
+  <li>wave2-cs-ns-swap-z</li>
+</ol>
 
 And our shortlist of no symbol layouts in Excel is now ...
 
@@ -847,7 +835,7 @@ We can take the top 58 unigrams from `keycraft corpus --corpus shai.txt` (and pl
 
 ... and observe that the following symbols are the top 5 most frequent `.,-'"`. Those are therefore good candidates for the main layer.
 
-However, in my trials of interplay between the main layer and symbols layer I've found that putting single and double quotes on the symbols layers aids with the top bigrams for programming (I've use a custom programming corpus which is not publicly available) ...
+However, in my trials of interplay between the main layer and symbols layer I've found that putting single and double quotes on the symbols layers aids with the top bigrams for programming (I use a custom programming corpus which is not publicly available) ...
 
 <a href="programming-corpus-bigrams-quotes-highlighted.png">
   <img
@@ -861,7 +849,7 @@ Less so with hyphen, `-`. That is, there aren't too many bigrams from above with
 So I'll define, for the main layer "John Bentley symbols":
 
 * `.,` as mandatory and on the ring and middle fingers respectively (whether on the left or right hand); and
-* Leave other symbol slots as spare (designated with tilde `~`). That is, it's up to you what you use them for. I have (the low frequency) underscore `_` and backslash `\` left over as something I currently place on the main layer, and let those shine through to the symbols layer. However, through trial and refinement I may push those onto the symbols layer and find alternate uses for these "spare" symbol slots. Command keys perhaps, like "Del" or "F5" (browser refresh); if not other symbols.
+* Leave other symbol slots as spare (designated with tilde `~`). That is, it's up to you what you use them for. I have (the low frequency) underscore `_` and backslash `\` left over as something I currently place on the main layer, and let those shine through to the symbols layer. However, through trial and refinement I may push those onto the symbols layer and find alternate uses for these main layer "spare" symbol slots. Command keys perhaps, like "Del" or "F5" (browser refresh); if not other symbols.
 
 ### Final Result
 
